@@ -1,0 +1,70 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: arial,sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.h{
+ height: 900px;
+}
+.navbar{
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: antiquewhite ;
+    font-size: 20px;
+    text-align:center;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: rgb(164, 3, 238);
+    color: black;
+}
+.navbar a.solid{
+    color: white;
+    background-color: rgb(157, 15, 201) ;
+}
+.navbar a.solid2{
+    background-color:blueviolet;
+    color: white;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+    top: 50px;
+    color: white;
+
+}
+.search-box:hover > .search-btn{
+    background: rgb(157, 15, 201);
+    color: white;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;   
+    line-height: 40px;
+    width: 0px;
+}
+.search-box{
+    float: right;
+    color: with;
+    background-color: blueviolet;
+    color: white;
+    background-color: rgb(157, 15, 201) ;
+}
